@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<table style="width: 500px ;">
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+    </tr>
+    <tr>
+        <td><input type="number" id="Amount"></td>
+        <td><select id="FromCurrency">
+            <option value="23000" >VietNam</option>
+            <option value="1">USD</option>
+        </select></td>
+        <td><select id="ToCurrency">
+            <option value="23000">VietNam</option>
+            <option value="1">USD</option>
+        </select>
+        </td>
+
+        <td><button onclick="Convert()">convert</button></td>
+    </tr>
+
+</table>
+<div>Result: </div>
+<div id="result"></div>
+
+
+
+</body>
+<script src="Ex5-moneyConversion.js"></script>
+</html>
