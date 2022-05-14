@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            border: 3px solid black;
+        }
+        td{
+            align-items: center;
+        }
+        button{
+            width: 30px;
+            height: 30px;
+
+        }
+        output{
+            appearance: textfield;
+            width: 120px;
+            height: 20px;
+            border: 1px black solid;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="4">
+            <output type="text" id ="showCalculation"></output>
+        </td>
+
+    </tr>
+    <tr>
+        <td><button onclick="number1()" id="number1" value="1">1</button></td>
+        <td><button onclick="number2()" id="number2" value="2">2</button></td>
+        <td><button onclick="number3()" id="number3" value="3">3</button></td>
+        <td><button onclick="plus()" id="plus" value="+">+</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="number4()" id="number4" value="4">4</button></td>
+        <td><button onclick="number5()" id="number5" value="5">5</button></td>
+        <td><button onclick="number6()" id="number6" value="6">6</button></td>
+        <td><button onclick="minus()" id="minus" value="-">-</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="number7()" id="number7" value="7">7</button></td>
+        <td><button onclick="number8()" id="number8" value="8">8</button></td>
+        <td><button onclick="number9()" id="number9" value="9">9</button></td>
+        <td><button onclick="multi()" id="multi" value="*">X</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="clearShow()" id="clearShow"  >C</button></td>
+        <td><button onclick="number0()" id="number0" value="0">0</button></td>
+        <td><button onclick="equal()" id="equal" >=</button></td>
+        <td><button onclick="division()" id="division" value="/">/</button></td>
+    </tr>
+</table>
+</body>
+<script src="Ex6-Calculator.js"></script>
+</html>
